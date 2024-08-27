@@ -40,7 +40,7 @@ remove_core_dumps() {
 }
 # Clearing the thumbnail cache
 clean_thumbnails_cache() {
-    echo "Czyszczenie pamięci podręcznej miniatur..."
+    echo "Clearing the thumbnail cache...."
     rm -rf ~/.cache/thumbnails/*
 }
 # Log compression (optional)
